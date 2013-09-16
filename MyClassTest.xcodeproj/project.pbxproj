@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC12F63717D968A4006C3728 /* TextHUBVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC12F63617D968A4006C3728 /* TextHUBVC.m */; };
+		CC12F63817D969BA006C3728 /* KKTextHUB.m in Sources */ = {isa = PBXBuildFile; fileRef = CC12F63417D96828006C3728 /* KKTextHUB.m */; };
+		CC12F63C17D96ABE006C3728 /* KKProgressHUB.m in Sources */ = {isa = PBXBuildFile; fileRef = CC12F63B17D96ABE006C3728 /* KKProgressHUB.m */; };
+		CC12F63F17D96B70006C3728 /* ProgressHUBVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC12F63E17D96B70006C3728 /* ProgressHUBVC.m */; };
+		CC12F64217D96D9B006C3728 /* JHProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CC12F64117D96D9A006C3728 /* JHProgressHUD.m */; };
+		CC12F64517D96DEF006C3728 /* JHProgressHUDVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC12F64417D96DEF006C3728 /* JHProgressHUDVC.m */; };
+		CC29B02817D86C9A0051F8A0 /* DimView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC29B02717D86C9A0051F8A0 /* DimView.m */; };
+		CC29B02B17D880DB0051F8A0 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC29B02A17D880DB0051F8A0 /* RootViewController.m */; };
+		CC29B03317D884CC0051F8A0 /* KKHttpTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC29B03217D884CC0051F8A0 /* KKHttpTestVC.m */; };
+		CCE483E217D585B1003BB435 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE483E117D585B1003BB435 /* UIKit.framework */; };
+		CCE483E417D585B1003BB435 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE483E317D585B1003BB435 /* Foundation.framework */; };
+		CCE483E617D585B1003BB435 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE483E517D585B1003BB435 /* CoreGraphics.framework */; };
+		CCE483EC17D585B1003BB435 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCE483EA17D585B1003BB435 /* InfoPlist.strings */; };
+		CCE483EE17D585B1003BB435 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE483ED17D585B1003BB435 /* main.m */; };
+		CCE483F217D585B1003BB435 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE483F117D585B1003BB435 /* AppDelegate.m */; };
+		CCE483F417D585B1003BB435 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CCE483F317D585B1003BB435 /* Default.png */; };
+		CCE483F617D585B1003BB435 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCE483F517D585B1003BB435 /* Default@2x.png */; };
+		CCE483F817D585B1003BB435 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCE483F717D585B1003BB435 /* Default-568h@2x.png */; };
+		CCE4840017D585C0003BB435 /* RootViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE483FF17D585C0003BB435 /* RootViewControllers.m */; };
+		CCE4840317D58603003BB435 /* KKHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE4840217D58603003BB435 /* KKHttpRequest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC12F63317D96828006C3728 /* KKTextHUB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKTextHUB.h; sourceTree = "<group>"; };
+		CC12F63417D96828006C3728 /* KKTextHUB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKTextHUB.m; sourceTree = "<group>"; };
+		CC12F63517D968A4006C3728 /* TextHUBVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextHUBVC.h; sourceTree = "<group>"; };
+		CC12F63617D968A4006C3728 /* TextHUBVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextHUBVC.m; sourceTree = "<group>"; };
+		CC12F63A17D96ABE006C3728 /* KKProgressHUB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKProgressHUB.h; sourceTree = "<group>"; };
+		CC12F63B17D96ABE006C3728 /* KKProgressHUB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKProgressHUB.m; sourceTree = "<group>"; };
+		CC12F63D17D96B70006C3728 /* ProgressHUBVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUBVC.h; sourceTree = "<group>"; };
+		CC12F63E17D96B70006C3728 /* ProgressHUBVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUBVC.m; sourceTree = "<group>"; };
+		CC12F64017D96D9A006C3728 /* JHProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHProgressHUD.h; sourceTree = "<group>"; };
+		CC12F64117D96D9A006C3728 /* JHProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHProgressHUD.m; sourceTree = "<group>"; };
+		CC12F64317D96DEF006C3728 /* JHProgressHUDVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHProgressHUDVC.h; sourceTree = "<group>"; };
+		CC12F64417D96DEF006C3728 /* JHProgressHUDVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHProgressHUDVC.m; sourceTree = "<group>"; };
+		CC29B02617D86C9A0051F8A0 /* DimView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DimView.h; sourceTree = "<group>"; };
+		CC29B02717D86C9A0051F8A0 /* DimView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DimView.m; sourceTree = "<group>"; };
+		CC29B02917D880DB0051F8A0 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		CC29B02A17D880DB0051F8A0 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		CC29B03117D884CC0051F8A0 /* KKHttpTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKHttpTestVC.h; sourceTree = "<group>"; };
+		CC29B03217D884CC0051F8A0 /* KKHttpTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKHttpTestVC.m; sourceTree = "<group>"; };
+		CCE483DE17D585B1003BB435 /* MyClassTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyClassTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCE483E117D585B1003BB435 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CCE483E317D585B1003BB435 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCE483E517D585B1003BB435 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCE483E917D585B1003BB435 /* MyClassTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyClassTest-Info.plist"; sourceTree = "<group>"; };
+		CCE483EB17D585B1003BB435 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCE483ED17D585B1003BB435 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCE483EF17D585B1003BB435 /* MyClassTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyClassTest-Prefix.pch"; sourceTree = "<group>"; };
+		CCE483F017D585B1003BB435 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCE483F117D585B1003BB435 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCE483F317D585B1003BB435 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CCE483F517D585B1003BB435 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CCE483F717D585B1003BB435 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CCE483FE17D585C0003BB435 /* RootViewControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewControllers.h; sourceTree = "<group>"; };
+		CCE483FF17D585C0003BB435 /* RootViewControllers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewControllers.m; sourceTree = "<group>"; };
+		CCE4840117D58603003BB435 /* KKHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKHttpRequest.h; sourceTree = "<group>"; };
+		CCE4840217D58603003BB435 /* KKHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKHttpRequest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCE483DB17D585B1003BB435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE483E217D585B1003BB435 /* UIKit.framework in Frameworks */,
+				CCE483E417D585B1003BB435 /* Foundation.framework in Frameworks */,
+				CCE483E617D585B1003BB435 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC12F63917D96A84006C3728 /* MyClass */ = {
+			isa = PBXGroup;
+			children = (
+				CC12F63317D96828006C3728 /* KKTextHUB.h */,
+				CC12F63417D96828006C3728 /* KKTextHUB.m */,
+				CC12F63A17D96ABE006C3728 /* KKProgressHUB.h */,
+				CC12F63B17D96ABE006C3728 /* KKProgressHUB.m */,
+				CCE4840117D58603003BB435 /* KKHttpRequest.h */,
+				CCE4840217D58603003BB435 /* KKHttpRequest.m */,
+				CC12F64017D96D9A006C3728 /* JHProgressHUD.h */,
+				CC12F64117D96D9A006C3728 /* JHProgressHUD.m */,
+			);
+			name = MyClass;
+			sourceTree = "<group>";
+		};
+		CC29B02C17D880E80051F8A0 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				CC29B02617D86C9A0051F8A0 /* DimView.h */,
+				CC29B02717D86C9A0051F8A0 /* DimView.m */,
+				CCE483FE17D585C0003BB435 /* RootViewControllers.h */,
+				CCE483FF17D585C0003BB435 /* RootViewControllers.m */,
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
+		CC29B02D17D884860051F8A0 /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CC29B03117D884CC0051F8A0 /* KKHttpTestVC.h */,
+				CC29B03217D884CC0051F8A0 /* KKHttpTestVC.m */,
+				CC12F63517D968A4006C3728 /* TextHUBVC.h */,
+				CC12F63617D968A4006C3728 /* TextHUBVC.m */,
+				CC12F63D17D96B70006C3728 /* ProgressHUBVC.h */,
+				CC12F63E17D96B70006C3728 /* ProgressHUBVC.m */,
+				CC12F64317D96DEF006C3728 /* JHProgressHUDVC.h */,
+				CC12F64417D96DEF006C3728 /* JHProgressHUDVC.m */,
+			);
+			name = DetailViewController;
+			sourceTree = "<group>";
+		};
+		CCE483D517D585B1003BB435 = {
+			isa = PBXGroup;
+			children = (
+				CCE483E717D585B1003BB435 /* MyClassTest */,
+				CCE483E017D585B1003BB435 /* Frameworks */,
+				CCE483DF17D585B1003BB435 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCE483DF17D585B1003BB435 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCE483DE17D585B1003BB435 /* MyClassTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCE483E017D585B1003BB435 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCE483E117D585B1003BB435 /* UIKit.framework */,
+				CCE483E317D585B1003BB435 /* Foundation.framework */,
+				CCE483E517D585B1003BB435 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCE483E717D585B1003BB435 /* MyClassTest */ = {
+			isa = PBXGroup;
+			children = (
+				CCE483F017D585B1003BB435 /* AppDelegate.h */,
+				CCE483F117D585B1003BB435 /* AppDelegate.m */,
+				CC29B02917D880DB0051F8A0 /* RootViewController.h */,
+				CC29B02A17D880DB0051F8A0 /* RootViewController.m */,
+				CC29B02D17D884860051F8A0 /* DetailViewController */,
+				CC29B02C17D880E80051F8A0 /* Test */,
+				CC12F63917D96A84006C3728 /* MyClass */,
+				CCE483E817D585B1003BB435 /* Supporting Files */,
+			);
+			path = MyClassTest;
+			sourceTree = "<group>";
+		};
+		CCE483E817D585B1003BB435 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCE483E917D585B1003BB435 /* MyClassTest-Info.plist */,
+				CCE483EA17D585B1003BB435 /* InfoPlist.strings */,
+				CCE483ED17D585B1003BB435 /* main.m */,
+				CCE483EF17D585B1003BB435 /* MyClassTest-Prefix.pch */,
+				CCE483F317D585B1003BB435 /* Default.png */,
+				CCE483F517D585B1003BB435 /* Default@2x.png */,
+				CCE483F717D585B1003BB435 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCE483DD17D585B1003BB435 /* MyClassTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCE483FB17D585B1003BB435 /* Build configuration list for PBXNativeTarget "MyClassTest" */;
+			buildPhases = (
+				CCE483DA17D585B1003BB435 /* Sources */,
+				CCE483DB17D585B1003BB435 /* Frameworks */,
+				CCE483DC17D585B1003BB435 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyClassTest;
+			productName = MyClassTest;
+			productReference = CCE483DE17D585B1003BB435 /* MyClassTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCE483D617D585B1003BB435 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = cocoajin;
+			};
+			buildConfigurationList = CCE483D917D585B1003BB435 /* Build configuration list for PBXProject "MyClassTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CCE483D517D585B1003BB435;
+			productRefGroup = CCE483DF17D585B1003BB435 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCE483DD17D585B1003BB435 /* MyClassTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCE483DC17D585B1003BB435 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE483EC17D585B1003BB435 /* InfoPlist.strings in Resources */,
+				CCE483F417D585B1003BB435 /* Default.png in Resources */,
+				CCE483F617D585B1003BB435 /* Default@2x.png in Resources */,
+				CCE483F817D585B1003BB435 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCE483DA17D585B1003BB435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC12F63817D969BA006C3728 /* KKTextHUB.m in Sources */,
+				CCE483EE17D585B1003BB435 /* main.m in Sources */,
+				CCE483F217D585B1003BB435 /* AppDelegate.m in Sources */,
+				CCE4840017D585C0003BB435 /* RootViewControllers.m in Sources */,
+				CCE4840317D58603003BB435 /* KKHttpRequest.m in Sources */,
+				CC29B02817D86C9A0051F8A0 /* DimView.m in Sources */,
+				CC29B02B17D880DB0051F8A0 /* RootViewController.m in Sources */,
+				CC29B03317D884CC0051F8A0 /* KKHttpTestVC.m in Sources */,
+				CC12F63717D968A4006C3728 /* TextHUBVC.m in Sources */,
+				CC12F63C17D96ABE006C3728 /* KKProgressHUB.m in Sources */,
+				CC12F63F17D96B70006C3728 /* ProgressHUBVC.m in Sources */,
+				CC12F64217D96D9B006C3728 /* JHProgressHUD.m in Sources */,
+				CC12F64517D96DEF006C3728 /* JHProgressHUDVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CCE483EA17D585B1003BB435 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCE483EB17D585B1003BB435 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCE483F917D585B1003BB435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCE483FA17D585B1003BB435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCE483FC17D585B1003BB435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyClassTest/MyClassTest-Prefix.pch";
+				INFOPLIST_FILE = "MyClassTest/MyClassTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCE483FD17D585B1003BB435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyClassTest/MyClassTest-Prefix.pch";
+				INFOPLIST_FILE = "MyClassTest/MyClassTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCE483D917D585B1003BB435 /* Build configuration list for PBXProject "MyClassTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCE483F917D585B1003BB435 /* Debug */,
+				CCE483FA17D585B1003BB435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCE483FB17D585B1003BB435 /* Build configuration list for PBXNativeTarget "MyClassTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCE483FC17D585B1003BB435 /* Debug */,
+				CCE483FD17D585B1003BB435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCE483D617D585B1003BB435 /* Project object */;
+}

@@ -1,0 +1,30 @@
+//
+// Prefix header for all source files of the 'MyClassTest' target in the 'MyClassTest' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+//push
+#define pushViewController(ViewController,str) \
+    ViewController *ViewControllerPushVC = [[ViewController alloc] init]; \
+    ViewControllerPushVC.title = str; \
+    [self.navigationController pushViewController:ViewControllerPushVC animated:YES]; \
+    [ViewControllerPushVC release];
+
+
+//alert
+
+#define alertWithString(str) \
+UIAlertView *theAlert = [[UIAlertView alloc]initWithTitle:@"提示" message:str delegate:self cancelButtonTitle:@"确认" otherButtonTitles:nil, nil]; \
+[theAlert show];   \
+[theAlert release];
+
+#endif
